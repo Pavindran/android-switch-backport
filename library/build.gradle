@@ -1,8 +1,11 @@
+group = 'org.jraf'
+version = '1.0.1-SNAPSHOT'
+
 apply plugin: 'android-library'
 
 android {
-  compileSdkVersion 17
-  buildToolsVersion '17'
+  compileSdkVersion 18
+  buildToolsVersion '18.1'
 
   sourceSets {
     main {

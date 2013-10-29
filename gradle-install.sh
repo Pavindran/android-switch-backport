@@ -1,0 +1,2 @@
+gradle -b library/build.gradle build
+mvn install:install-file -Dfile=library/build/libs/library-1.0.1-SNAPSHOT.aar -DgroupId=org.jraf -DartifactId=android-switch-backport -Dversion=1.0.1-SNAPSHOT -Dpackaging=aar
